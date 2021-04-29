@@ -1,0 +1,35 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: gatsby-plugin-catch-links
+    versions:
+    - 2.9.0
+  - dependency-name: gatsby-remark-responsive-iframe
+    versions:
+    - 2.10.0
+  - dependency-name: gatsby-remark-prismjs
+    versions:
+    - 3.12.0
+  - dependency-name: gatsby-plugin-nprogress
+    versions:
+    - 2.9.0
+  - dependency-name: urijs
+    versions:
+    - 1.19.5
+  - dependency-name: lodash-es
+    versions:
+    - 4.17.20
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: prismjs
+    versions:
+    - 1.21.0
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
